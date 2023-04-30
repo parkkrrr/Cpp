@@ -2,18 +2,17 @@
 
 using namespace std;
 
-struct Node{
+typedef struct Node
+{
     int data;
     struct Node *next;
-};
+} Node;
 
-int main(){
-    struct Node *node;
+int main()
+{
+    Node *node;
 
-    struct Node *newNode=(struct Node*) malloc(sizeof(struct Node));
-
-    
-
+    Node *newNode = (Node *)malloc(sizeof(Node));
 
     return 0;
 }
