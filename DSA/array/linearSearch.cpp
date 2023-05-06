@@ -28,3 +28,5 @@ int main()
 
     return 0;
 }
+
+//Time complexity is O(n), the number of operations is propostional to n. The larger is the value of n, the larger the time taken. 
