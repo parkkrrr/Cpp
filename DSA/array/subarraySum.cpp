@@ -20,7 +20,7 @@ int maxSumSubarray(int arr[], int n)
 
 int main()
 {
-    int arr[] = {1, 2, 5, 2, 3, 4, -1, -5, 1, -5, 6, 7};
+    int arr[] = {-2, 3, 4, -1, 5, -12, 6, 1, 3, 2};
     int n{sizeof(arr) / sizeof(int)};
 
     cout << maxSumSubarray(arr, n);
