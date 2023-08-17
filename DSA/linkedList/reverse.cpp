@@ -51,6 +51,7 @@ public:
             prev=curr;
             curr=temp;
         }
+        head=prev; //Revised
     }
 
     void print(){
