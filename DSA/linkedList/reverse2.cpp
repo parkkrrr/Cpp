@@ -46,11 +46,11 @@ public:
 
         while(curr!=nullptr){
             temp=curr->next;
-            // curr->next=prev;
-            // prev=curr;
-            // curr=temp;
+            curr->next=prev;
+            prev=curr;
+            curr=temp;
         }
-        // head=prev;
+        head=prev;
     }
     
 };

@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int maxSubarraySum(int arr[], int n){
-    int currentSum {};
-    int largestSum {};
+long long maxSubarraySum(int arr[], int n){
+    long currentSum {};
+    long largestSum {arr[0]};
 
     for(int i=0; i<n; i++){
         currentSum+=arr[i];
+        largestSum=max(largestSum, currentSum);
         if(currentSum<0)
             currentSum=0;
-        largestSum=max(largestSum, currentSum);
     }
     return largestSum;
 }
