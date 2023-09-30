@@ -47,38 +47,38 @@ int main()
 
 // } Driver Code Ends
 
-    vector<int> find(int arr[], int n , int x )
-    {
-        int high {n-1};
-        int low {};
-        int mid;
-        int first {-1};
-        int last {-1};
-        while(high>=low){
-            mid=low+(high-low)/2;
-            if(arr[mid]>x)
-                high=mid-1;
-            else if(arr[mid]<x)
-                low=mid+1;
-            else{
-                first=mid;
-                high=mid-1;
-            }
-        }
-        if(first==-1)
-            return{-1, -1};
-        high=n-1;
-        low=0;
-        while(high>=low){
-            mid=low+(high-low)/2;
-            if(arr[mid]>x)
-                high=mid-1;
-            else if(arr[mid]<x)
-                low=mid+1;
-            else{
-                last=mid;
-                low=mid+1;
-            }
-        }
-        return {first, last};
-    }
+    // vector<int> find(int arr[], int n , int x )
+    // {
+    //     int high {n-1};
+    //     int low {};
+    //     int mid;
+    //     int first {-1};
+    //     int last {-1};
+    //     while(high>=low){
+    //         mid=low+(high-low)/2;
+    //         if(arr[mid]>x)
+    //             high=mid-1;
+    //         else if(arr[mid]<x)
+    //             low=mid+1;
+    //         else{
+    //             first=mid;
+    //             high=mid-1;
+    //         }
+    //     }
+    //     if(first==-1)
+    //         return{-1, -1};
+    //     high=n-1;
+    //     low=0;
+    //     while(high>=low){
+    //         mid=low+(high-low)/2;
+    //         if(arr[mid]>x)
+    //             high=mid-1;
+    //         else if(arr[mid]<x)
+    //             low=mid+1;
+    //         else{
+    //             last=mid;
+    //             low=mid+1;
+    //         }
+    //     }
+    //     return {first, last};
+    // }
