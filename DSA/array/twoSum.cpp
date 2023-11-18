@@ -44,9 +44,9 @@ int twoSum(int arr[], int n, int x)
 
 int main()
 {
-    int arr[] = {3,2,4};
+    int arr[] = {3,2,4,5,8,3,2,5,1};
     int n = sizeof(arr) / sizeof(arr[0]);
     sort(arr, arr + n);
-    cout << twoSum(arr, n, 6);
+    cout << twoSum(arr, n, 13);
     return 0;
 }

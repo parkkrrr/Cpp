@@ -47,8 +47,8 @@ void calculatingRainwater(int height[], int n)
 
 int main()
 {
-    // int height[]{4,2,0,6,3,2,5};
-    int height[]{7,4,0,9};
+    int height[]{6,2,0,6,3,2,6};
+    // int height[]{7,4,0,9};
     int n = sizeof(height) / sizeof(height[0]);
 
     calculatingRainwater(height, n);
