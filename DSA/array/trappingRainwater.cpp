@@ -22,16 +22,7 @@ void calculatingRainwater(int height[], int n)
         
     
     
-    // while(n--){
-    //     if(height[n]>maxBoundary)
-    //         maxBoundary=height[n];
-    //     if(height[n]<minBoundary)
-    //         minBoundary=height[n];
-
-    //     cout<<maxBoundary<<endl<<minBoundary<<endl;
-    // }
-
-    // int sum {};
+    
     for (int i = 0; i < n ; i++)
     {
         // if ((height[i - 1] > height[i] && height[i + 1]) > height[i])
